@@ -78,6 +78,15 @@ def dump_yaml(data: Any, stream: TextIO):
         data (Any): Payload.
         stream (TextIO): Text file handle.
     """
+
+    def str_presenter(dumper, data):
+        """https://stackoverflow.com/a/33300001/818393"""
+        if len(data.splitlines()) > 1:  # check for multiline string
+            return dumper.represent_scalar("tag:yaml.org,2002:str", data, style="|")
+        return dumper.represent_scalar("tag:yaml.org,2002:str", data)
+
+    yaml.add_representer(str, str_presenter)
+
     yaml.dump(
         data,
         stream,

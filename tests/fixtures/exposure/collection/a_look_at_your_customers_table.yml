@@ -2,19 +2,16 @@ version: 2
 exposures:
   - name: a_look_at_your_customers_table
     label: A look at your customers table
-    description: '### Dashboard Cards: 18
-
+    description: |-
+      ### Dashboard Cards: 18
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __1__
 
-
-      Created On: __2021-07-21T08:01:37.328519Z__'
+      Created On: __2021-07-21T08:01:37.328519Z__
     type: dashboard
     url: http://localhost:3000/dashboard/1
     maturity: medium
@@ -25,19 +22,16 @@ exposures:
       - ref('customers')
   - name: customer_lifetime_value_over_time
     label: Customer_lifetime_value over time
-    description: '### Visualization: Line
-
+    description: |-
+      ### Visualization: Line
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __11__
 
-
-      Created On: __2021-07-21T08:01:38.52841Z__'
+      Created On: __2021-07-21T08:01:38.52841Z__
     type: analysis
     url: http://localhost:3000/card/11
     maturity: medium
@@ -48,19 +42,16 @@ exposures:
       - ref('customers')
   - name: customer_lifetime_value_over_time_1
     label: Customer_lifetime_value over time
-    description: '### Visualization: Line
-
+    description: |-
+      ### Visualization: Line
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __9__
 
-
-      Created On: __2021-07-21T08:01:38.189846Z__'
+      Created On: __2021-07-21T08:01:38.189846Z__
     type: analysis
     url: http://localhost:3000/card/9
     maturity: medium
@@ -71,19 +62,16 @@ exposures:
       - ref('customers')
   - name: customers_added_in_the_last_30_days
     label: Customers added in the last 30 days
-    description: '### Visualization: Scalar
-
+    description: |-
+      ### Visualization: Scalar
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __4__
 
-
-      Created On: __2021-07-21T08:01:37.535187Z__'
+      Created On: __2021-07-21T08:01:37.535187Z__
     type: analysis
     url: http://localhost:3000/card/4
     maturity: medium
@@ -94,19 +82,16 @@ exposures:
       - ref('customers')
   - name: customers_added_in_the_last_30_days_1
     label: Customers added in the last 30 days
-    description: '### Visualization: Scalar
-
+    description: |-
+      ### Visualization: Scalar
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __5__
 
-
-      Created On: __2021-07-21T08:01:37.630969Z__'
+      Created On: __2021-07-21T08:01:37.630969Z__
     type: analysis
     url: http://localhost:3000/card/5
     maturity: medium
@@ -117,19 +102,16 @@ exposures:
       - ref('customers')
   - name: customers_by_customer_lifetime_value
     label: Customers by customer_lifetime_value
-    description: '### Visualization: Bar
-
+    description: |-
+      ### Visualization: Bar
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __7__
 
-
-      Created On: __2021-07-21T08:01:37.858387Z__'
+      Created On: __2021-07-21T08:01:37.858387Z__
     type: analysis
     url: http://localhost:3000/card/7
     maturity: medium
@@ -140,19 +122,16 @@ exposures:
       - ref('customers')
   - name: customers_by_number_of_orders
     label: Customers by number_of_orders
-    description: '### Visualization: Bar
-
+    description: |-
+      ### Visualization: Bar
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __6__
 
-
-      Created On: __2021-07-21T08:01:37.754606Z__'
+      Created On: __2021-07-21T08:01:37.754606Z__
     type: analysis
     url: http://localhost:3000/card/6
     maturity: medium
@@ -163,19 +142,16 @@ exposures:
       - ref('customers')
   - name: number_of_orders_over_time
     label: Number_of_orders over time
-    description: '### Visualization: Line
-
+    description: |-
+      ### Visualization: Line
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __8__
 
-
-      Created On: __2021-07-21T08:01:38.016244Z__'
+      Created On: __2021-07-21T08:01:38.016244Z__
     type: analysis
     url: http://localhost:3000/card/8
     maturity: medium
@@ -186,19 +162,16 @@ exposures:
       - ref('customers')
   - name: number_of_orders_over_time_1
     label: Number_of_orders over time
-    description: '### Visualization: Line
-
+    description: |-
+      ### Visualization: Line
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __10__
 
-
-      Created On: __2021-07-21T08:01:38.347535Z__'
+      Created On: __2021-07-21T08:01:38.347535Z__
     type: analysis
     url: http://localhost:3000/card/10
     maturity: medium
@@ -209,19 +182,16 @@ exposures:
       - ref('customers')
   - name: timestamp_by_day_of_the_week
     label: Timestamp by day of the week
-    description: '### Visualization: Bar
-
+    description: |-
+      ### Visualization: Bar
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __12__
 
-
-      Created On: __2021-07-21T08:01:38.662485Z__'
+      Created On: __2021-07-21T08:01:38.662485Z__
     type: analysis
     url: http://localhost:3000/card/12
     maturity: medium
@@ -232,19 +202,16 @@ exposures:
       - ref('customers')
   - name: timestamp_by_day_of_the_week_1
     label: Timestamp by day of the week
-    description: '### Visualization: Bar
-
+    description: |-
+      ### Visualization: Bar
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __13__
 
-
-      Created On: __2021-07-21T08:01:38.808186Z__'
+      Created On: __2021-07-21T08:01:38.808186Z__
     type: analysis
     url: http://localhost:3000/card/13
     maturity: medium
@@ -255,19 +222,16 @@ exposures:
       - ref('customers')
   - name: timestamp_by_month_of_the_year
     label: Timestamp by month of the year
-    description: '### Visualization: Bar
-
+    description: |-
+      ### Visualization: Bar
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __15__
 
-
-      Created On: __2021-07-21T08:01:39.084258Z__'
+      Created On: __2021-07-21T08:01:39.084258Z__
     type: analysis
     url: http://localhost:3000/card/15
     maturity: medium
@@ -278,19 +242,16 @@ exposures:
       - ref('customers')
   - name: timestamp_by_month_of_the_year_1
     label: Timestamp by month of the year
-    description: '### Visualization: Bar
-
+    description: |-
+      ### Visualization: Bar
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __14__
 
-
-      Created On: __2021-07-21T08:01:38.938688Z__'
+      Created On: __2021-07-21T08:01:38.938688Z__
     type: analysis
     url: http://localhost:3000/card/14
     maturity: medium
@@ -301,19 +262,16 @@ exposures:
       - ref('customers')
   - name: timestamp_by_quarter_of_the_year
     label: Timestamp by quarter of the year
-    description: '### Visualization: Bar
-
+    description: |-
+      ### Visualization: Bar
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __17__
 
-
-      Created On: __2021-07-21T08:01:39.371067Z__'
+      Created On: __2021-07-21T08:01:39.371067Z__
     type: analysis
     url: http://localhost:3000/card/17
     maturity: medium
@@ -324,19 +282,16 @@ exposures:
       - ref('customers')
   - name: timestamp_by_quarter_of_the_year_1
     label: Timestamp by quarter of the year
-    description: '### Visualization: Bar
-
+    description: |-
+      ### Visualization: Bar
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __16__
 
-
-      Created On: __2021-07-21T08:01:39.228965Z__'
+      Created On: __2021-07-21T08:01:39.228965Z__
     type: analysis
     url: http://localhost:3000/card/16
     maturity: medium
@@ -347,19 +302,16 @@ exposures:
       - ref('customers')
   - name: total_customers
     label: Total customers
-    description: '### Visualization: Scalar
-
+    description: |-
+      ### Visualization: Scalar
 
       No description provided in Metabase
 
-
       #### Metadata
-
 
       Metabase ID: __3__
 
-
-      Created On: __2021-07-21T08:01:37.434243Z__'
+      Created On: __2021-07-21T08:01:37.434243Z__
     type: analysis
     url: http://localhost:3000/card/3
     maturity: medium
