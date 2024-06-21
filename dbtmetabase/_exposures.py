@@ -183,9 +183,9 @@ class ExposuresMixin(metaclass=ABCMeta):
                             native_query=native_query,
                             depends_on=sorted(
                                 [
-                                    ctx.model_refs[depend.lower()]
+                                    ctx.model_refs.get(depend.lower())
+                                    or f"unknown('{depend.lower()}')"
                                     for depend in depends
-                                    if depend.lower() in ctx.model_refs
                                 ]
                             ),
                         ),
@@ -193,6 +193,15 @@ class ExposuresMixin(metaclass=ABCMeta):
                 )
 
         self.__write_exposures(exposures, output_path, output_grouping)
+
+        with open(Path(output_path) / "debug.yml", "w", encoding="utf-8") as f:
+            dump_yaml(
+                data={
+                    "model_refs": ctx.model_refs,
+                    "table_names": ctx.table_names,
+                },
+                stream=f,
+            )
 
         return exposures
 
